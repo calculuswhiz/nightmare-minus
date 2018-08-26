@@ -5,6 +5,7 @@
 - Some characters do not have battle animations as archers or snipers. (E.g. Lucius, Hawkeye, Nino (as a sniper)
   - This will glitch out Arena fights. The fight will not finish and you will waste a turn.
   - This will crash the game when fighting the dragon. If a character does not have a battle animation, do not use them as the dragonslayer.
+- Backup your save files!
 ### Changes (the ones I remembered to document)
 - All characters start out as Archer/Sniper except ninian/nils.
 - Fiora spawns in a couple blocks south to prevent a crash.
