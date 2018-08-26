@@ -1,2 +1,3 @@
 all:
-	npx babel jsx/InputComponent.jsx --out-file scripts/InputComponent.js
+	npm install
+	electron-packager . --prune --out="Electron Minus"
