@@ -38,7 +38,7 @@
   - Must have battle animation (see warnings)!
   - Fast enough to double.
   - Strong enough to deal damage with a Rienfleche on the fire dragon.
-    - The absolute minimum attack you need is 21 to do 1 damage without bonuses. Again, supports and Fila's Might is strongly recommended.
+    - The absolute minimum attack you need is 21 to do 1 damage without bonuses. Again, supports and Fila's Might are strongly recommended.
   - Enough HP to take a 34-damage blast.
 - Stock up on healing items when you can. They are the only way you can heal and stay on the move. You will need elixirs for the final map.
 - This ROM is very unfair in the early game (but beatable). Save states/RNG manipulation are welcome.
