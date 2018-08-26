@@ -1,6 +1,7 @@
 ## Archer Emblem ROM Notes:
 ### Warnings
 - You *must* beat the game once before loading, otherwise, you will get stuck in the tutorial, and that's no fun.
+  - In order to play, rename your copy of `FE7 Archer Mod~.gba` to whatever your ROM was called.
 - Some characters do not have battle animations as archers or snipers. (E.g. Lucius, Hawkeye, Nino (as a sniper)
   - This will glitch out Arena fights. The fight will not finish and you will waste a turn.
   - This will crash the game when fighting the dragon. If a character does not have a battle animation, do not use them as the dragonslayer.
