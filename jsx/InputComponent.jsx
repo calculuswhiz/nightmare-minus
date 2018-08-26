@@ -1,3 +1,7 @@
+/*
+To compile:
+npx babel jsx/InputComponent.jsx --out-file scripts/InputComponent.js
+*/
 const {app, dialog} = require('electron').remote;
 const fs = require('fs');
 const React = require('react');
