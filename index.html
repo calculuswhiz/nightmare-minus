@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nightmare-</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript">
+      /* Fun stuff: (maybe useful later?)
+        Grab all input values: $$(".FieldInput").map(a=>a.children[0].value || a.children[0].children[1].value)
+      */
+      // Ha! No xml injection for you!
+      function setStatusMessage(message)
+      {
+        let statusBar = document.getElementById("StatusBar");
+        let children = statusBar.childNodes;
+        
+        for(let child of children){
+          statusBar.removeChild(child);
+        }
+        
+        statusBar.appendChild(document.createTextNode(message));
+        
+        return message;
+      }
+      
+      let isPromptOpen = false;
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="bannerTitle">Nightmar</span><span id="edeco">e<sup>-</sup></div>
+      <div id="bannerSubtitle">Nightmare Editor for ElectronJS</div>
+    </div>
+    
+    <div id="root"> </div>
+    <div id="StatusBar">Awaiting files</div>
+    <script>
+      require('./scripts/InputComponent.js');
+    </script>
+  </body>
+</html>

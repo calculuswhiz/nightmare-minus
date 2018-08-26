@@ -1,0 +1,176 @@
+:root{
+  --bannerFGColor: #74b1be;
+  --bannerBGColor: #2f3241;
+  --header-height: 80px;
+  --status-bar-height: 20px;
+  --main-background: #f6f8f8;
+  --button-foreground: #ffffff;
+  --button-hoverBG: #3f62a1;
+  --button-activeBG: #3f82c1;
+}
+
+*{
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  background-color: var(--main-background);
+}
+
+/*Banner stuff:*/
+#banner{
+  width: 100%;
+  height: var(--header-height);
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  margin: 0px;
+  text-align: center;
+  color: var(--bannerFGColor);
+  background-color: var(--bannerBGColor);
+  z-index: 2;
+  user-select: none;
+  cursor: default;
+}
+
+#bannerTitle{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#edeco{
+  color: aquamarine;
+}
+
+/* Main part: */
+#ButtonContainer {
+  height: 30px;
+  margin-top: 5px;
+}
+
+.linkButton {
+  font-weight: bold;
+  padding: 4px;
+  text-decoration: none;
+  background-color: var(--bannerBGColor);
+  color: var(--button-foreground);
+  height: 100%;
+  border: 2px outset gray;
+}
+
+.linkButton:hover{
+  color: var(--button-foreground);
+  background-color: var(--button-hoverBG);
+  border: 2px outset gray;
+}
+
+.linkButton:active{
+  /*color: var(--bannerBGColor);*/
+  background-color: var(--button-activeBG); 
+  border: 2px inset gray;
+}
+
+#root {
+  /*border-top: 8px solid var(--main-background);*/
+  padding-top: 5px;
+  border-left: 8px solid var(--main-background);
+  position: absolute;
+  top:  var(--header-height);
+  left: 0px;
+  right: 0px;
+  bottom: var(--status-bar-height);
+  overflow: auto;
+}
+
+#mainInterface{
+  max-width: 1200px;
+}
+
+select {
+  background-color: var(--bannerBGColor);
+  color: var(--button-foreground);
+}
+
+select > * {
+  background-color: var(--bannerBGColor);
+  color: var(--button-foreground);
+}
+
+select:hover {
+  background-color: var(--button-hoverBG);
+}
+
+select:active {
+  background-color: var(--button-activeBG);
+}
+
+.DisplayFilePath{
+  border-style: inset;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+#EditorMain{
+  border: 1px solid #c0c0c0;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+#ModuleDescription{
+  text-align: center;
+}
+
+#TableEntryEditor{
+  display: table;
+  border-collapse: collapse;
+}
+
+.entryLabel {
+  font-weight: bold;
+}
+
+.entryField {
+  display: table-row;
+}
+
+.entryField > * {
+  border: 1px solid gray;
+  padding: 1px;
+  display: table-cell;
+}
+
+.FieldInput > * {
+  float: right;
+}
+
+.NEDLink > * {
+  border: 2px dotted var(--bannerFGColor);
+  color: var(--button-foreground);
+  background-color: var(--bannerBGColor);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.NEDLink > *:hover{
+  background-color: var(--button-hoverBG);
+}
+
+.NEDLink > *:active{
+  background-color: (--button-activeBG);
+  border: 2px inset gray;
+}
+
+#StatusBar {
+  border-top: 1px solid gray;
+  position: fixed;
+  background-color: var(--bannerBGColor);
+  color: aquamarine;
+  width:    100%;
+  height:   var(--status-bar-height);
+  left:     0px;
+  padding-left: 3px;
+  bottom: 0;
+}
