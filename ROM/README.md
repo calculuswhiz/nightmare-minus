@@ -19,7 +19,7 @@
     - Iron bow <- Iron weapon/javelin/hand axe/fire/heal staff 
     - Steel bow <- Steel weapon/spear/thunder/elfire/recover staff
     - Silver bow <- silver weapon/physic staff
-    - Slim bow <- short weapon
+    - Short bow <- slim weapon
     - Killer bow <- killer weapon
     - Brave bow <- brave weapon/Fortify
     - Rienfleche <- Legendary weapons. For some reason, I can't find the Sol Katti's address anywhere, so...
