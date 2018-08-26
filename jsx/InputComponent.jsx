@@ -1,5 +1,5 @@
 /*
-To compile:
+To compile (from parent directory):
 npx babel jsx/InputComponent.jsx --out-file scripts/InputComponent.js
 */
 const {app, dialog} = require('electron').remote;
